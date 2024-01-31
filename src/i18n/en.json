@@ -1,0 +1,19 @@
+{
+  "header": "Planet Architecture Panel v0.0.2",
+  "success_message": "Planet Built Successfully",
+  "property": "Property",
+  "value": "Value",
+  "name": "Name",
+  "radius": "Radius",
+  "life_exists": "Life Exists",
+  "yes": "Yes",
+  "no": "No",
+  "header_title": "Planet Architecture Panel v0.0.2",
+  "earth_image_alt": "Earth",
+  "planet_name_label": "Planet Name",
+  "planet_radius_label": "Radius (in km)",
+  "life_exists_label": "Life Exists",
+  "build_planet_button": "Build Planet",
+  "error_invalid_planet_name": "Invalid planet name. It should contain only letters, numbers, and spaces.",
+  "error_invalid_planet_radius": "Invalid planet radius. It should be between 1000 and 200000 km."
+}

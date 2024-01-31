@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Planet Architecture Panel v0.0.2</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="header">
+    <h1><%= __('header') %></h1>
+</div>
+<div class="container">
+    <div class="display-section">
+        <h1 class="center">Planet Built Successfully</h1>
+        <div id="planetDisplay" style="width: <%= Math.max(10, Math.min(300, data.planetRadius/100)) %>px; height: <%= Math.max(10, Math.min(300, data.planetRadius/100)) %>px; background-color: <%= data.lifeExistence ? 'green' : 'grey' %>;"></div>
+        <table id="planetInfo">
+            <tr>
+                <th>Property</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><%= data.planetName %></td>
+            </tr>
+            <tr>
+                <td>Radius</td>
+                <td><%= data.planetRadius %> km</td>
+            </tr>
+            <tr>
+                <td>Life Exists</td>
+                <td><%= data.lifeExistence ? "Yes" : "No" %></td>
+            </tr>
+        </table>
+
+        <a href="/" class="mt-10">Try Again</a>
+    </div>
+</div>
+
+</body>
+</html>

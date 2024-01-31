@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Planet Architecture Panel v0.0.2</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="header">
+    <h1>Planet Architecture Panel v0.0.2</h1>
+</div>
+<div class="container">
+    <div class="form-section">
+
+        <p>This is a static version as required for task A.</p>
+
+        <img src="img/earth.png" alt="Earth" height="200px">
+        <form action="/submit-form" method="post" id="planetForm">
+            <div class="form-group">
+                <label for="planetName">Planet Name:</label>
+                <input type="text" id="planetName" name="planetName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="planetRadius">Radius (in km):</label>
+                <input type="number" id="planetRadius" name="planetRadius" required min="0" step="any">
+            </div>
+
+            <div class="form-group">
+                <label for="lifeExistence">Life Exists:</label>
+                <input type="checkbox" id="lifeExistence" name="lifeExistence">
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Build Planet</button>
+            </div>
+
+            <div id="formError" class="form-error"></div>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

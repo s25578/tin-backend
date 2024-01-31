@@ -1,0 +1,19 @@
+{
+  "header": "Panel de Arquitectura Planetaria v0.0.2",
+  "success_message": "Planeta Construido con Éxito",
+  "property": "Propiedad",
+  "value": "Valor",
+  "name": "Nombre",
+  "radius": "Radio",
+  "life_exists": "Existe Vida",
+  "yes": "Sí",
+  "no": "No",
+  "header_title": "Panel de Arquitectura Planetaria v0.0.2",
+  "earth_image_alt": "Tierra",
+  "planet_name_label": "Nombre del Planeta",
+  "planet_radius_label": "Radio (en km)",
+  "life_exists_label": "Existe Vida",
+  "build_planet_button": "Construir Planeta",
+  "error_invalid_planet_name": "Nombre del planeta inválido. Solo debe contener letras, números y espacios.",
+  "error_invalid_planet_radius": "Radio del planeta inválido. Debe estar entre 1000 y 200000 km."
+}
