@@ -8,6 +8,9 @@
 + d) show some data modification in a non trivial way
 + e) middlewares
 
+## Demo
+
+![tutorial.gif](tutorial.gif)
 
 ## Quickstart
 
